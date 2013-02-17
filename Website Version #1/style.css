@@ -1,0 +1,82 @@
+/*
+*
+*	=misc.
+*
+*/
+
+* {
+	font-family: "Electrolize", sans-serif;
+}
+
+/*
+*
+*	=wrapper
+*
+*/
+
+.wrap {
+	width: 800px;
+	min-height: 600px;
+	margin: 0 auto;
+}
+
+/*
+*
+*	=header
+*
+*/
+
+.header {
+	height: 200px;
+}
+
+/*
+*
+*	=menu
+*
+*/
+
+#nav {
+	width: 100%;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+#nav a {
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+#nav a:hover {
+	background: yellow;
+	color: black;
+}
+
+#nav a.selected {
+	background: yellow;
+	color: black;
+	font-weight: bold;
+}
+
+/*
+*
+*	=content
+*
+*/
+
+.content {
+
+}
+
+/*
+*
+*	=footer
+*
+*/
+
+footer {
+	border-top: 1px solid black;s
+	padding-top: 5px;
+	font-size: 12px;
+}

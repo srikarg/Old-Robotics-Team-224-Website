@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>The Tribe | Media</title>
+		<meta charset=utf-8 />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Inder' rel='stylesheet' type='text/css'>
+	</head>
+	
+	<body>
+		<div class="wrap">
+			<div class="header clearfix">
+				<h1 id="responsive_title">Media</h1>
+				<img src="images/logo.png" />
+
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="media.html" class="selected">Media</a></li>
+						<li><a href="achievements.html">Achievements</a></li>
+					</ul>
+				</nav>
+			</div>
+			
+			<div class="slider">
+				<h3>Pictures</h3>
+				<ul class="m_images">
+					<li><img src="images/pic1.jpg" /></li>
+					<li><img src="images/pic2.jpg" /></li>
+					<li><img src="images/pic3.jpg" /></li>
+					<li><img src="images/pic4.jpg" /></li>
+					<li><img src="images/pic5.jpg" /></li>
+					<li><img src="images/pic6.jpg" /></li>
+				</ul>
+				
+				<div id="control"><button class="next">Next</button></div>
+			</div>
+
+			<footer class="clearfix">
+				<div class="sponsors">
+					<a href="http://www.fandamachineco.com/" target=_blank><img src="images/f&aLogo.jpg" height="32px" /></a>
+					<a href="http://www.marsint.com/" target=_blank><img src="images/marsInternationalLogo.png" height="32px" /></a>
+					<a href="http://www.chartermachinecompany.com/" target=_blank><img src="images/charterMachineLogo.png" height="32px" /></a>
+				</div>
+				<div class="social">
+					<a href="http://www.facebook.com/pages/Piscataway-Robotics-Team-224-The-Tribe/235710796517179" target=_blank><img src="images/social/facebook.png" width="32px" height="32px" /></a>
+					<a href="http://twitter.com/team_224" target=_blank><img src="images/social/twitter.png" width="32px" height="32px" /></a>
+				</div>
+			</footer>
+		</div>
+		
+		<!-- JavaScript scripts -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script src="scripts/slider.js"></script>
+		<script type="text/javascript" src="scripts/jquery.fitvids.js"></script>
+		<script type="text/javascript">
+			$('div.content').fitVids();
+		</script>
+	</body>
+</html>
